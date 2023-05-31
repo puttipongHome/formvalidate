@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h2>แบบฟอร์มร้องเรียน</h2>
+            <div class="form-control ">
+                <label for="username">ชื่อ-นามสกุล</label>
+                <input type="text" name="" id="username" placeholder="Enter Your Username"></input>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control ">
+                <label for="email">อีเมล</label>
+                <input type="text" name="" id="email" placeholder="Enter Your Email"></input>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="phone">เบอร์มือถือ</label>
+                <input type="text" name="" id="phone" placeholder="Enter Your PhoneNumber"></input>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="text">ข้อความร้องเรียน</label>
+                <textarea type="text" name="" id="textarea" placeholder=""></textarea>
+                <small>Error Message</small>
+            </div>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
