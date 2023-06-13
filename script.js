@@ -95,10 +95,6 @@ const validatePhone = (phone) => {
   };
 
   
-// function validateEmail(email){
-//     const em =  /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-//     return em.test(string(email).toLowerCase());
-// }  
 const validateEmail = (email) => {
     return String(email)
       .toLowerCase()
